@@ -1,0 +1,65 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+body {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  color:black;
+}
+
+/* CLASS STYLES */
+
+
+/* ID STYLES */
+#name-div {
+  background-image: url(assets/portrait.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 60vh;
+}
+#name-div h1 {
+  font-size: 4rem;
+}
+
+#link-div a{
+  padding: 0 10px;
+  text-decoration: none;
+  font-size: 3rem;
+  color: black;
+}
+
+#link-div a:visited{
+  color: black;
+}
+
+#link-div a:hover{
+  color: gray;
+}
+
+#content{
+  padding: 3rem;
+}
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 40em) {
+   /* Do stuff */
+
+}
+
+@media (min-width: 62em) {
+  html {
+    font-size: 20px;
+  }
+  #name-div {
+    background-position: right;
+  }
+  
+  #name-div h1 {
+    font-size: 5rem;
+  }
+}

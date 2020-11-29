@@ -3,15 +3,43 @@
 /* Padding below the footer and lighter body text */
 
 body {
-  padding-top: 3rem;
+  padding-top: 3.5rem;
   padding-bottom: 3rem;
   color:black;
 }
 
 /* CLASS STYLES */
 
+.divider {
+  margin: 2rem 0;
+}
+hr.bold {
+  border-top: 2px solid rgba(0,0,0,.25)
+}
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 150;
+  /* line-height: 1; */
+  letter-spacing: -.05rem;
+}
+
+.featurette {
+  align-items: center;
+}
+
+.bg-tiffany-blue {
+  background-color: #81D8D0 !important;
+}
 
 /* ID STYLES */
+#name-div * {
+  color: white;
+  opacity: 0.7;
+}
+#content {
+  margin: 2rem auto;
+}
+
 #name-div {
   background-image: url(assets/portrait.jpg);
   background-size: cover;
@@ -19,28 +47,28 @@ body {
   background-repeat: no-repeat;
   min-height: 60vh;
 }
+
 #name-div h1 {
   font-size: 4rem;
 }
 
-#link-div a{
+#link-div a {
   padding: 0 10px;
   text-decoration: none;
   font-size: 3rem;
-  color: black;
+  color:white;
+  opacity: 0.9
 }
 
 #link-div a:visited{
-  color: black;
+  color: white;
 }
 
 #link-div a:hover{
-  color: gray;
+  opacity: 1.0;
 }
 
-#content{
-  padding: 3rem;
-}
+
 
 
 /* RESPONSIVE CSS
@@ -62,4 +90,13 @@ body {
   #name-div h1 {
     font-size: 5rem;
   }
+
+  .divider{
+    margin: 5rem 0;
+  }
+
+  #content {
+    margin: 3rem auto;
+  }
+
 }

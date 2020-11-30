@@ -34,6 +34,12 @@ hr.bold {
   background-color: #81D8D0 !important;
 }
 
+.img-center-cover {
+  background-size: cover;
+  background-position:center;
+  background-repeat: no-repeat;
+}
+
 /* ID STYLES */
 #name-div * {
   color: white;
@@ -71,8 +77,16 @@ hr.bold {
   opacity: 1.0;
 }
 
+#sebbu-brain {
+  background-image: url(assets/sebbu_brain.jpg);
+}
+#sebbu-cute {
+  background-image: url(assets/sebbu_cute.jpg);
+}
 
-
+#sebbu-last {
+  background-image: url(assets/sebbu_last.jpg);
+}
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */
@@ -87,7 +101,7 @@ hr.bold {
     font-size: 20px;
   }
   #name-div {
-    background-position: right;
+    /* background-position: right; */
   }
   
   #name-div h1 {

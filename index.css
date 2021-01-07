@@ -77,6 +77,10 @@ hr.bold {
   opacity: 1.0;
 }
 
+#link-div .fa-github{
+  font-size: 3.3rem;
+}
+
 #sebbu-brain {
   background-image: url(assets/sebbu_brain.jpg);
 }

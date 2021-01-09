@@ -31,8 +31,14 @@ hr.bold {
   letter-spacing: -.05rem;
 }
 
+.lead{
+  text-align: center;
+  font-size: 1rem;
+}
+
 .featurette {
   align-items: center;
+  text-align: center;
 }
 
 .bg-tiffany-blue {

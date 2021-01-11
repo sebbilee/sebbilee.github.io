@@ -71,6 +71,17 @@ hr.bold {
   color: white;
   opacity: 0.7;
 }
+
+#art-div * {
+  color: white;
+  opacity: 0.7;
+}
+
+#pet-div * {
+  color: white;
+  opacity: 0.7;
+}
+
 #content {
   margin: 2rem auto;
 }
@@ -83,7 +94,31 @@ hr.bold {
   min-height: 60vh;
 }
 
+#art-div {
+  background-image: url(assets/unicone.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 60vh;
+}
+
+#pet-div {
+  background-image: url(assets/pets.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 60vh;
+}
+
 #name-div h1 {
+  font-size: 4rem;
+}
+
+#art-div h1{
+  font-size: 4rem;
+}
+
+#pet-div h1 {
   font-size: 4rem;
 }
 
@@ -123,7 +158,7 @@ hr.bold {
 }
 
 #sushi-alone {
-  background-image: url(assets/sushialone.png);
+  background-image: url(assets/sushialone.jpg);
 }
 
 #sebbu-win {
@@ -135,7 +170,15 @@ hr.bold {
 }
 
 #pikachu-spook {
-  background-image: url(assets/surprisedpikachu.jpg)
+  background-image: url(assets/surprisedpikachu.png)
+}
+
+#haru-now {
+  background-image: url(assets/haru_now.jpg);
+}
+
+#hani {
+  background-image: url(assets/hani.jpg);
 }
 
 /* RESPONSIVE CSS

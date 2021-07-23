@@ -66,18 +66,6 @@ hr.bold {
   background-repeat: no-repeat;
 }
 
-.img-hover-zoom {
-  overflow: hidden;
-}
-
-.img-hover-zoom img {
-  transition: transform 0.5s ease-in;
-}
-
-.img-hover-zoom:hover img{
-  transform: scale(1.25);
-}
-
 /* ID STYLES */
 #name-div * {
   color: white;
@@ -152,6 +140,7 @@ hr.bold {
 
 #link-div a:hover{
   opacity: 1.0;
+  transform: scale(1.25);
 }
 
 #link-div .fa-github{

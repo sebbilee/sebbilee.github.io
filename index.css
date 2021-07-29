@@ -100,7 +100,7 @@ hr.bold {
 }
 
 #about-div {
-  background-image: url(assets/KakaoKorea.jpg);
+  background-image: url(assets/Korea.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -129,6 +129,7 @@ hr.bold {
 
 #about-div h1 {
   font-size: 4rem;
+  color: white;
 }
 
 #art-div h1{

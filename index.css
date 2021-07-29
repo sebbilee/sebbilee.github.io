@@ -72,6 +72,11 @@ hr.bold {
   opacity: 0.7;
 }
 
+#about-div * {
+  color: white;
+  opacity: 0.7;
+}
+
 #art-div * {
   color: white;
   opacity: 0.7;
@@ -119,6 +124,10 @@ hr.bold {
 }
 
 #name-div h1 {
+  font-size: 4rem;
+}
+
+#about-div h1 {
   font-size: 4rem;
 }
 

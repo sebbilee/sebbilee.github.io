@@ -94,8 +94,16 @@ hr.bold {
   min-height: 60vh;
 }
 
+#about-div {
+  background-image: url(assets/KakaoKorea.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 60vh;
+}
+
 #art-div {
-  background-image: url(assets/unicone.jpg);
+  background-image: url(assets/sushialone.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -182,6 +190,38 @@ hr.bold {
   background-image: url(assets/hani.jpg);
 }
 
+#RoboGirls {
+  background-image: url(assets/RoboGirls.jpg);
+}
+
+#korea {
+  background-image: url(assets/Korea.jpg);
+}
+
+#kakao {
+  background-image: url(assets/KakaoKorea.jpg);
+}
+
+#dr-trip {
+  background-image: url(assets/DR_trip.jpg);
+}
+
+#duck-drawing {
+  background-image: url(assets/duck_adventure.jpeg);
+}
+
+#good-pic {
+  background-image: url(assets/GoodPic.JPG);
+}
+
+#robo-worlds {
+  background-image: url(assets/RoboWorlds.jpg);
+}
+
+#coke-lover {
+  background-image: url(assets/caffeineLover.jpg);
+}
+
 /* RESPONSIVE CSS
 -------------------------------------------------- */
 
@@ -194,9 +234,9 @@ hr.bold {
   html {
     font-size: 20px;
   }
-  #name-div {
-    /* background-position: right; */
-  }
+  /* #name-div {
+    /* background-position: right;
+   } */
   
   #name-div h1 {
     font-size: 5rem;

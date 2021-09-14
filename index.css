@@ -1,13 +1,13 @@
 /* GLOBAL STYLES
 -------------------------------------------------- */
 /* Padding below the footer and lighter body text */
-
 body {
   padding-top: 3.5rem;
   padding-bottom: 3rem;
   color:black;
   
 }
+
 body * {
   scroll-margin-top: 5.5rem;
 }
@@ -50,6 +50,10 @@ hr.bold {
   text-align: center;
 }
 
+.featurette-image{
+  height: 310px;
+}
+
 .bg-tiffany-blue {
   background-color: #81D8D0 !important;
 }
@@ -64,6 +68,33 @@ hr.bold {
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
+}
+
+/* Animation styles */
+.hover-underline-animation {
+  display: inline-block;
+  position: relative;
+}
+
+.hover-underline-animation:after {
+  content: '';
+  position: absolute;
+  width: calc(100% - 20px);
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  background-color: rgba(255, 255, 255, 0.5);
+  transform-origin: bottom center;
+  transition: transform 0.25s ease-out;
+}
+
+.hover-underline-animation:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom center;
 }
 
 /* ID STYLES */
@@ -100,7 +131,7 @@ hr.bold {
 }
 
 #about-div {
-  background-image: url(assets/Korea.jpg);
+  background-image: url(assets/GoodPic.JPG);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

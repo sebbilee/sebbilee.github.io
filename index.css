@@ -68,6 +68,7 @@ hr.bold {
 }
 
 .img-center-contain {
+  object-fit: cover;
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;

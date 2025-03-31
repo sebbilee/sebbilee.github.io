@@ -4,7 +4,6 @@
     <!-- Required meta tags -->
     <meta charset = "utf-8">
     <meta name = "viewport" content = "width=device-width, initial-scale=1, shrink-to-fit=no">
-    <script src = "https://code.jquery.com/jquery-1.10.2.js"></script>
 
     <link rel="icon" href = "https://www.samash.com/spotlight/files/2016/09/wsi-imageoptim-s-favicon.jpg?w=144">
     <title>Sebbi Lee</title>
@@ -20,16 +19,31 @@
     <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Text:300,400,700&display=swap" rel="stylesheet">
 
   </head>
-
   <body>
     <header>
-      <div id = "nav-placeholder">
-      </div>
-      <script>
-        $(function(){
-            $("#nav-placeholder").load("navbar.html");
-        });
-      </script>
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-tiffany-blue">
+        <a class="navbar-brand" href = "index.html"> Sebbi Lee </a>
+        <button class="navbar-toggler" type = "button" data-toggle = "collapse" data-target = "#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class = "collapse navbar-collapse" id = "navbarCollapse">
+          <ul class = "navbar-nav ml-auto">
+            <li class = "nav-item">
+              <a class = "nav-link hover-underline-animation" href = "about.html">About</a>
+            </li>
+            <li class = "nav-item">
+                <a class = "nav-link hover-underline-animation" href = "#"> Projects </a>
+            </li> 
+            <li class = "nav-item">
+              <a class = "nav-link hover-underline-animation" href = "art.html"> Art </a>
+            </li>
+            <li class = "nav-item">
+              <a class = "nav-link hover-underline-animation" href = "pets.html"> Pets </a>
+            </li>
+
+          </ul>
+        </div>
+      </nav>
     </header>
 
     <main role="main">
@@ -41,6 +55,7 @@
           <a class="fa fa-linkedin" href="https://www.linkedin.com/in/sebinne-lee/"></a>
           <a class = "fa fa-github" href= "https://github.com/sebbilee/sebbilee.github.io/"></a>
         </div>
+
       </div>
 
       <div id="content" class="container">
@@ -133,13 +148,13 @@
       </div>
 
       <footer class="container">
-        <div id = "footer-placeholder">
-        </div>
-        <script>
-            $(function(){
-                $("#footer-placeholder").load("footer.html");
-            });
-        </script>
+        <p class="float-right"><a href="#">Back to top</a></p>
+        <p>
+          <a href="https://www.instagram.com/sebbilee/">Instagram</a> &middot;
+          <a href="https://www.linkedin.com/in/sebinne-lee/">LinkedIn</a> &middot;
+          <a href = "https://github.com/sebbilee/sebbilee.github.io/">GitHub</a>
+        </p>
+
       </footer>
     </main>
 
